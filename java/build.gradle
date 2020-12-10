@@ -1,0 +1,12 @@
+group 'sethgholson'
+version '1.0-SNAPSHOT'
+apply plugin: 'application'
+mainClassName = "com.sethgholson.ctec151.CharacterManagerApp"
+
+run {
+  standardInput = System.in
+}
+
+dependencies {
+  implementation("com.squareup.moshi:moshi:1.11.0")
+}
